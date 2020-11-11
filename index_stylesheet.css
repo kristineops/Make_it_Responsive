@@ -79,6 +79,30 @@
     width: 90%;
     margin: 0 auto;
   }
+  .container3{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    z-index: -1;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: auto;
+  }
+  .divcenter{
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -30%);
+    font-size: 20px;
+    padding: 0px;
+    font-family: Times;
+  }
+  .img-back{
+    width: 100%;
+    height: auto;
+  }
 
   /* Style text */
   .text{
@@ -108,6 +132,7 @@
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 5px;
+    max-width: 80%;
   }
 
   .text4{
@@ -117,83 +142,8 @@
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 5px;
+    max-width: 80%;
   }
-
-  /* Registration form */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: dodgerblue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color:dodgerblue;
-  }
-  
-  /* Placement registration form */
-  .container1 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right:auto ;
-    margin-top:0;
-    align-content: center;
-    width: 500px;
-  }
-
-
-
-  /*STAFF*/
-
-  /* Three columns side by side */
-.column {
-  float: left;
-  text-align: center;
-  width: 28%;
-  margin-bottom: 16px;
-  padding: 0 30px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .title {
   color: grey;
@@ -224,7 +174,14 @@
 	width: 100%;
 	text-align: center;
 	font: bold 16px sans-serif;
- 
+    text-decoration: none;
 	padding: 10px 9px;
 	margin-top: 80px;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail a.hoover{
+    color: gray;
 }
