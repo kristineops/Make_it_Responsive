@@ -168,6 +168,7 @@
   width: 28%;
   margin-bottom: 16px;
   padding: 0 30px;
+  overflow: hidden;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
