@@ -145,6 +145,7 @@
   }
   
   /* Placement registration form */
+
   .container1 {
     border-radius: 5px;
     background-color: white;
@@ -155,28 +156,40 @@
     margin-top:0;
     align-content: center;
     width: 500px;
+    
   }
-
+  @media screen and (max-width: 600px){
+    .container1{
+      width: 100%;  
+      position: relative;
+      overflow: -moz-hidden-unscrollable;
+      width: 300px;
+        
+    }
+  }
 
 
   /*STAFF*/
 
   /* Three columns side by side */
+  @media screen and (min-width: 601px){
 .column {
   float: left;
   text-align: center;
-  width: 28%;
+  width: 33.33%;
   margin-bottom: 16px;
-  padding: 0 30px;
+  padding: 10px;
+  overflow: -moz-hidden-unscrollable;
+  width: 30%;
+} 
 }
-
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    display: block;
   }
 }
+
 
 /* Add some shadows to create a card effect */
 .card {

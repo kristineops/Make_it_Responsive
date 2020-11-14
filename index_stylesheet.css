@@ -88,7 +88,29 @@
     width: 100%;
     height: auto;
   }
+<<<<<<< HEAD
   
+=======
+
+  
+  .divcenter{
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -30%);
+    
+    padding: 0px;
+    font-family: Times;
+  }
+  @media screen and (max-width: 600px){
+    .divcenter{
+      font-size: 15px;
+      padding-left: 30px;
+    }
+}
+>>>>>>> ba37555318d4fa575e7ec6a8ef94210bc34ba50a
   .img-back{
     width: 100%;
     height: auto;
