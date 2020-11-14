@@ -88,17 +88,7 @@
     width: 100%;
     height: auto;
   }
-  .divcenter{
-    position: absolute;
-    text-align: left;
-    display: inline-block;
-    top: 50%;
-    left: 23%;
-    transform: translate(-50%, -30%);
-    
-    padding: 0px;
-    font-family: Times;
-  }
+  
   .img-back{
     width: 100%;
     height: auto;
